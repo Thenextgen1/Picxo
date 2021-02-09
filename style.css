@@ -32,9 +32,6 @@
     padding-right: 80px;
 }
 
-#joinb {
-    
-}
 
 
 .contents {
@@ -80,6 +77,12 @@ box-shadow:  22px 22px 94px #ffffff,
     background-repeat: no-repeat;
     
 }
+.adjust{
+    background-color: #6b705c !important;
+    
+}
+
+
 @media(max-width: 576px) {
     .forms, 
     input[type=search]{
