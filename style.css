@@ -82,6 +82,40 @@ box-shadow:  22px 22px 94px #ffffff,
     
 }
 
+.navii {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10%;
+    padding-bottom: 0;
+    border-bottom: 0.2px solid black;
+}
+.navii-list {
+    list-style: none;
+}
+.navii-list li {
+    display: inline-block;
+    padding: 10px 20px;
+    
+}
+.navii-list li a {
+    color: rgb(73, 68, 68);
+    text-decoration: none;
+    font-size: 20px;
+    padding-bottom: 0;
+}
+.navii-list li a:hover {
+   color: blue;
+}
+.active {
+    color: blue !important;
+    border-bottom: 3px solid blue !important;
+}
+
+
+
+
+
 
 @media(max-width: 576px) {
     .forms, 
