@@ -111,11 +111,35 @@ box-shadow:  22px 22px 94px #ffffff,
     color: blue !important;
     border-bottom: 3px solid blue !important;
 }
+.row {
+    margin-bottom: 30px;
+}
 
+.free {
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
 
-
-
-
+@media(max-width: 760px) {
+    .navii {
+        justify-content: space-evenly;
+        padding: 0;
+        margin-left: 2px;
+        margin-right: 2px !important;
+        align-items: center;
+        text-align: center;
+    } .navii-list li {
+        padding: 5px;
+    }
+    .img-fluid {
+        margin-top: 10px;
+    }
+    .challenges {
+        display: none;
+        visibility: 0;
+    }
+}
 
 @media(max-width: 576px) {
     .forms, 
