@@ -125,10 +125,10 @@ box-shadow:  22px 22px 94px #ffffff,
     .navii {
         justify-content: space-evenly;
         padding: 0;
-        margin-left: 2px;
-        margin-right: 2px !important;
-        align-items: center;
-        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        padding: ;
+        
     } .navii-list li {
         padding: 5px;
     }
