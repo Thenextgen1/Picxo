@@ -127,9 +127,9 @@ box-shadow:  22px 22px 94px #ffffff,
         padding: 0;
         margin-left: 0;
         margin-right: 0;
-        padding: ;
-        
-    } .navii-list li {
+        padding: 0;
+        }
+         .navii-list li {
         padding: 5px;
     }
     .img-fluid {
